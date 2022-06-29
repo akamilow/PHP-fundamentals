@@ -1,0 +1,87 @@
+body {
+    background-color: brown;
+    text-align: center;
+    font-family: monospace;
+}
+
+#title {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.description {
+    font-size: 15px;
+}
+
+#container {
+    background-color: rgba(202, 202, 202, 0.8);
+    margin: 0 auto;
+    border-radius: 20px;
+    max-width: 80rem;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.labels {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.input-field {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+
+#salidas {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#boton-enviar {
+    background-color: #282caae2;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 125px;
+    margin: 10px;
+    border: 0px solid;
+}
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+  
+table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+}
+  
+table tr {
+    background-color: #f8f8f8;
+    border: 1px solid black;
+    padding: .35em;
+}
+  
+table th, table td {
+    padding: .625em;
+    text-align: center;
+}
+  
+table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+table td {
+    background-color: #f8f8f8;
+}
